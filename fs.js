@@ -23,6 +23,11 @@ fs.appendFile('js.txt' ,'Hello  i am added',(err)=>
     }
     else
     {
-        console.log('data deleted')
+        console.log('data updated')
     }
 })
+// fs.unlink('js.txt' ,(err)=>{
+//     console.log(err)
+// }
+
+// )

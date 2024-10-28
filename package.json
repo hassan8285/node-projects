@@ -4,13 +4,15 @@
   "description": "It's my first project",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js",        
-    "dev": "nodemon main.js",    
+    "start": "node main.js",
+    "dev": "nodemon main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "hassan",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.7"
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0"
   }
 }
